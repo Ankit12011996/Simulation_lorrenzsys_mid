@@ -1,0 +1,15 @@
+Question_2 - part 3
+
+The Lorenz system is an instance of a chaotic dynamical system that displays characteristics such as sensitivity to initial conditions, aperiodic behavior, and a strange attractor. 
+The system consists of three nonlinear ordinary differential equations that are coupled together and represent the evolution of three state variables.
+The Numerical method midpoint method is a second-order method, which means that it provides a more accurate approximation of the solution than a first-order method like Euler's method.
+This increased accuracy can be important when simulating chaotic systems like the Lorenz system, which can exhibit sensitive dependence on initial conditions.
+Another advantage of the midpoint method is that it is simpler to implement than higher-order methods like Runge-Kutta methods. 
+The midpoint method only requires evaluating the differential equations at one intermediate point, whereas higher-order methods require evaluating the differential equations at multiple intermediate points. 
+This simplicity can make the midpoint method a more efficient choice for simulating the Lorenz system, especially if a large number of simulations need to be performed.
+Finally,The stability of numerical methods is a critical aspect when simulating chaotic systems like the Lorenz system, which are vulnerable to even small perturbations in the initial conditions. 
+Numerical instability can further exacerbate these perturbations and result in inaccurate outcomes. 
+The midpoint method proves advantageous in this regard as it is highly numerically stable and can maintain this stability for a broad spectrum of parameter values and initial conditions.
+Therefore, it is a viable option for simulating the Lorenz system and other chaotic systems.
+
+For Discretization part will state 3 plots generated from the code using 3 different dt time to show it's behaviour in very discretization step
